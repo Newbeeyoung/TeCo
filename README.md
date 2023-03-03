@@ -2,6 +2,8 @@
 
 This repositery contains the code for [**Temporal Coherent Test-Time Optimization for Robust Video Classification, ICLR2023**](https://arxiv.org/pdf/2302.14309v1.pdf).
 
+![image info](asset/overview.png)
+
 ## Test Time Optimization and Evaluation
 Adapt the pretrained model with test data. The command sample adapts the model with data corrupted by shot noise with severity of 3.
 
@@ -23,5 +25,7 @@ python3 teco_kinetics.py --threed_data --dataset mini_kinetics400 --frames_per_g
 
 Go to another repository for creating video corruption dataset [link](https://github.com/Newbeeyoung/Video-Corruption-Robustness).
 
-To Do: evaluate with Mini Kinetics Test Data which corrupted Shot_Noise-3, please download from [link](). 
+To Do: evaluate with Mini Kinetics Test Data which corrupted by Shot Noise lvl3, please download from [link](). 
+
+To Do: pretrained weights of I3D ResNet 18 on Mini Kinetics, please download from [link]().
 
